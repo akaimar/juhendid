@@ -1,0 +1,23 @@
+Allikas: Learn Flask for Python - Full Tutorial, https://www.youtube.com/watch?v=Z1RJmh_OqeA&t=2338s
+IDE: Visual Studio Code
+Mac
+
+Tee projektile kataloog:
+
+# installi virtualenv #
+% pip3 install virtualenv
+% virtualenv env
+
+# aktiveerime env #
+% cource env/bin/activate
+
+# installime: Python SQL toolkit and Object Relational Mapper #
+% pip3 install flask flask-sqlalchemy
+
+# Teeme faili #
+app.py
+
+# Käivitame faili #
+% python3 app.py
+>> nüüd saad VSC terminalist kätte IP aadressi koos pordiga, mis läheb browserisse
+
