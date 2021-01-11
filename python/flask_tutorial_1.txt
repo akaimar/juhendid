@@ -9,7 +9,7 @@ Tee projektile kataloog:
 % virtualenv env
 
 # aktiveerime env #
-% cource env/bin/activate
+% source env/bin/activate
 
 # installime: Python SQL toolkit and Object Relational Mapper #
 % pip3 install flask flask-sqlalchemy
@@ -20,4 +20,42 @@ app.py
 # Käivitame faili #
 % python3 app.py
 >> nüüd saad VSC terminalist kätte IP aadressi koos pordiga, mis läheb browserisse
+>> või localhost:5000
+
+# Teeme struktuuri #
+Teeme folderi "templates"
+Üks master html - index.html
+Ja siis pärime teised html failid indexisse, näiteks base.html
+Index.html saab endale sellise sisu
+
+{% extends 'base.html' %}
+{% block head %}
+{% endblock %}
+{% block body %}
+{% endblock %}
+
+Siia võime siis mistahes kraami ehitada.
+
+base.html sai tavapärase index.html faili struktuuri <html><head></head><body></body></html>
+
+# static folder #
+Lisame folderi "static". Siia teeme näiteks css faili.
+main.css. Siis uus folder teha "css".
+see main.css tuleb linkida base.html lehele
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+Et näha lehel css muudatust, on vaja refreshida lehte CMD + SHIFT + R (full refresh)
+
+# andmebaasi tegemine #
+from flask_sqlalchemy import SQLAlchemy
+kui andmebaas valmis, siis käivita environment terminalist
+% source env/bin/activate
+Käivita python3
+% python3
+Käivita andmebaas järgmiselt pythonis
+>>> from app import db
+>>> db.create_all()
+Vasemas menüüs VSC peab nüüd olema andmebaas test.db
+mine terminalist välja
+>>> exit() 
+
 
