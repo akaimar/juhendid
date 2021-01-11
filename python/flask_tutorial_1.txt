@@ -1,17 +1,16 @@
 Allikas: Learn Flask for Python - Full Tutorial, https://www.youtube.com/watch?v=Z1RJmh_OqeA&t=2338s
-IDE: Visual Studio Code
-Mac
+IDE: Visual Studio Code, Masin: Mac
 
-Tee projektile kataloog:
+# tee projektile kataloog #
 
-# installi virtualenv #
+installi virtualenv
 % pip3 install virtualenv
 % virtualenv env
 
-# aktiveerime env #
+aktiveerime env
 % source env/bin/activate
 
-# installime: Python SQL toolkit and Object Relational Mapper #
+# installime: Flask ja Python SQL toolkit and Object Relational Mapper #
 % pip3 install flask flask-sqlalchemy
 
 # Teeme faili #
