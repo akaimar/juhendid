@@ -13,6 +13,8 @@ $ git inint
 # kontrollime, kas selles folderis on nüüd ka hidden folder .git
 $ ls - la
 
+<! ------- FAILIDE LIIGUTAMINE --------->
+
 # lisame faili staging environmenti
 $ git add index.html
 
@@ -34,7 +36,6 @@ $ git commit -m "revision one"
 # vaatame logi ja näeme commiti sisu, tunnust, autorit, kuupäeva ja message
 # log näitab kõike committe, mida me projekti ajal teeme
 $ git log #logist väljumiseks tuleb vajutada klahvi q
-
 
 # teeme muudatuse index.html lehel ja salvestame
 # terminalis näeme, et index.html ei ole commititud
@@ -59,7 +60,9 @@ $ git commit -m "revision three" # teeme revision three commiti
 $ git log # näeme kõiki revisioone, igaühel on oma tunnus, kuhu saame tagasi tulla
 
 # kui me kustutame oma wokring evnist ära faili nt. see on about.html
-# saame selle tagasi
+$ git rm about.html # kustutab faili working envst
+
+# saame selle tagasi working evnsse
 $ git checkout about.html
 
 # kui me tahame faili kustutamist stagingusse saata. Kustutame faili.
@@ -69,6 +72,49 @@ $ git status #näeme, et deleted: about.html
 # kui tahame selle tegevuse resettida ja faili tagasi saada stagingusse
 $ git reset HEAD about.html
 $ git checkout about.html
+
+# kui ma tahan kõik viia stagingusse, failide muudatused, kustutamised ja kogu tegevus
+$ git --all
+
+<! ------- LOGIDE JA BRANCHIDEGA MÖLLAMINE --------->
+
+# tehes branche on võimalik vaadata, milline versioon töötas ja see taastada
+
+# vaatame logi
+$ git log
+
+# tõmbame konkreetse hastagiga commiti, kui me trükime selle checkouti järele
+# saame info ja tehakse vastav muudatus workenvis
+$ git checkout 5f401aedb4babc84d692a0e95cff9d3bd756d5d0
+
+# teeme faili index.html uue muudatuse ja commiti
+$ git add .
+$ git commit -m "alternatiivne muudatus"
+
+# git salvestab muudatused branchidesse, vaatame branche, peamine branch on "master"
+$ git branch
+
+# kui tahame minna master bracnhi, mille ees on "*" see näitab, kus branchis oleme
+$ git checkout master
+
+# uue branchi jaoks loome branchi "alternate", millel on master tunnus nt. 2c33a85
+$ git branch alternate 2c33a85
+
+# vaatame, millised brachid meil on, saame "alternate ja * master"
+$ git branch
+
+# liikumiseks ühest branchist teise
+$ git checkout alternate #siseneme branchi alternate
+$ git checkout master #siseneme tagasi branchi master
+
+# vaatame logisid konkreetses branchis
+$ git log
+
+
+
+
+
+
 
 
 
