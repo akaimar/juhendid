@@ -44,6 +44,25 @@ $ git status
 # Seda saab tagasi undo-ga
 $ git checkout index.html
 
+# teeme mõned muudatused index.html faili nt. märke, et see on revision two, salvestame
+# staatusest näeme, et modified: index.html
+$ git status
+
+# teeme revision two commiti
+$ git commit -m "revision tow"
+
+# teeme uue versiooni index.html faili nt. märke, et see on revison three, salvestame
+$ git status # näeme, et midagi on working evis
+$ git add index.htlm # lisame selle stagingusse
+$ git commit -m "revision three" # teeme revision three commiti
+$ git log # näeme kõiki revisioone, igaühel on oma tunnus, kuhu saame tagasi tulla
+
+
+
+
+
+
+
 
 
 
