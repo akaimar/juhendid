@@ -1,4 +1,4 @@
-# VERSION CONTROL SYSTEM
+// VERSION CONTROL SYSTEM
 # USING BASH TERMINAL
 
 # kontrolli, mis git versioon on
