@@ -1,7 +1,7 @@
 # VERSION CONTROL SYSTEM
 ## USING BASH TERMINAL
 
-** kontrolli, mis git versioon on
+** kontrolli, mis git versioon on **
 $ git --version
 
 # projektis on failid index.html ja about.html
