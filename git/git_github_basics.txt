@@ -8,7 +8,7 @@ $ git --version
 # siseneme projekti folderisse
 
 # käivitame giti konkreetses folderis
-$ git inint
+$ git init
 
 # kontrollime, kas selles folderis on nüüd ka hidden folder .git
 $ ls - la
