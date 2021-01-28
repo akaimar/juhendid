@@ -1,0 +1,56 @@
+# VERSION CONTROL SYSTEM
+# USING BASH TERMINAL
+
+# kontrolli, mis git versioon on
+$ git --version
+
+# projektis on failid index.html ja about.html
+# siseneme projekti folderisse
+
+# käivitame giti konkreetses folderis
+$ git inint
+
+# kontrollime, kas selles folderis on nüüd ka hidden folder .git
+$ ls - la
+
+# lisame faili staging environmenti
+$ git add index.html
+
+# kontrollime failide staatust
+$ git status
+
+# näeme, et index.html on lisatud, kuid teine fail about.html ei ole
+# lisame kogu folderi stagingusse
+$ git add .
+
+# kontrollime failide staatust
+# saame kontrollida igal ajahetkel, mis toimub failidega
+$ git status
+
+# salvestame faili staatuse läbi commit logi
+# saadame sõnumi ja meie andmed
+$ git commit -m "revision one"
+
+# vaatame logi ja näeme commiti sisu, tunnust, autorit, kuupäeva ja message
+# log näitab kõike committe, mida me projekti ajal teeme
+$ git log
+
+# teeme muudatuse index.html lehel ja salvestame
+# terminalis näeme, et index.html ei ole commititud
+$ git status
+
+# Kui tahame eelmist versiooni failist stagingust, saame selle kätte checkoutiga
+# Alati saab minna stagingus olevasse versiooni checkoutiga
+# Seda saab tagasi undo-ga
+$ git checkout index.html
+
+
+
+
+
+
+
+
+
+
+
