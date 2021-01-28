@@ -33,7 +33,8 @@ $ git commit -m "revision one"
 
 # vaatame logi ja näeme commiti sisu, tunnust, autorit, kuupäeva ja message
 # log näitab kõike committe, mida me projekti ajal teeme
-$ git log
+$ git log #logist väljumiseks tuleb vajutada klahvi q
+
 
 # teeme muudatuse index.html lehel ja salvestame
 # terminalis näeme, et index.html ei ole commititud
@@ -56,6 +57,20 @@ $ git status # näeme, et midagi on working evis
 $ git add index.htlm # lisame selle stagingusse
 $ git commit -m "revision three" # teeme revision three commiti
 $ git log # näeme kõiki revisioone, igaühel on oma tunnus, kuhu saame tagasi tulla
+
+# kui me kustutame oma wokring evnist ära faili nt. see on about.html
+# saame selle tagasi
+$ git checkout about.html
+
+# kui me tahame faili kustutamist stagingusse saata. Kustutame faili.
+$ git add about.html
+$ git status #näeme, et deleted: about.html
+
+# kui tahame selle tegevuse resettida ja faili tagasi saada stagingusse
+$ git reset HEAD about.html
+$ git checkout about.html
+
+
 
 
 
