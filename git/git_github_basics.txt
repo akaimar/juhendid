@@ -13,6 +13,10 @@ $ git init
 # kontrollime, kas selles folderis on nüüd ka hidden folder .git
 $ ls - la
 
+<! ------- LOGI SISSE ------->
+$ git config --global user.email "aimar.roosalu@gmail.com"
+$ bash-3.2$ git config --global user.name "Aimar Roosalu"
+
 <! ------- FAILIDE LIIGUTAMINE --------->
 
 # lisame faili staging environmenti
@@ -40,6 +44,9 @@ $ git log #logist väljumiseks tuleb vajutada klahvi q
 # teeme muudatuse index.html lehel ja salvestame
 # terminalis näeme, et index.html ei ole commititud
 $ git status
+
+# Kui tahame eelmist versiooni, siis kasutame commiti koodi 5cc1986e30edbc19a12766badb40eba0ba125695 ja show
+$ git show 5cc1986e30edbc19a12766badb40eba0ba125695
 
 # Kui tahame eelmist versiooni failist stagingust, saame selle kätte checkoutiga
 # Alati saab minna stagingus olevasse versiooni checkoutiga
