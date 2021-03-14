@@ -1,0 +1,12 @@
+Teen github.com lehel uue repository
+Kui repository on olemas, siis kasutad juhendist rida "…or push an existing repository from the command line"
+Kopeerid esimese käsu terminali $ git remote add origin https://github.com/akaimar/Vaktsineerimine.git
+Kirjutad terminali $ git remote
+Nii saad kontrollida, kas origin on olemas
+Kirjutad terminali $ git remote -v
+Saad kätte aadressid üles lükkamiseks ja alla tõmbamiseks
+Kui on soov eraldada.
+Kui kirjutada terminali $ git push
+Ütleb ta, kuidas pushida githubi, see on kujul $ git push --set-upstream origin master
+Kirjutad terminali $ git push --set-upstream origin master
+Saad githubi masteri
