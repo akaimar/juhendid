@@ -10,3 +10,5 @@ Kui kirjutada terminali $ git push
 Ütleb ta, kuidas pushida githubi, see on kujul $ git push --set-upstream origin master
 Kirjutad terminali $ git push --set-upstream origin master
 Saad githubi masteri
+Kui ma soovin näha, kas keegi on teinud mudatusi, siis kirjutan terminali
+$ git pull
