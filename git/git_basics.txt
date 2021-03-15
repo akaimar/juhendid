@@ -15,7 +15,7 @@ $ ls - la
 
 <! ------- LOGI SISSE ------->
 $ git config --global user.email "aimar.roosalu@gmail.com"
-$ bash-3.2$ git config --global user.name "Aimar Roosalu"
+$ git config --global user.name "Aimar Roosalu"
 
 <! ------- FAILIDE LIIGUTAMINE --------->
 
