@@ -117,6 +117,12 @@ $ git checkout master #siseneme tagasi branchi master
 # vaatame logisid konkreetses branchis
 $ git log
 
+# konkreetse versiooni vaatamine
+$ git show 93bddb840947197ff11879b1760ef16bade5af28
+
+# vaatame ainult, millised muudatused on tehtud, mitte ei merge
+$ git fetch
+
 
 
 
