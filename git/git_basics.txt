@@ -14,8 +14,8 @@ $ git init
 $ ls - la
 
 <! ------- LOGI SISSE ------->
-$ git config --global user.email "aimar.roosalu@gmail.com"
-$ git config --global user.name "Aimar Roosalu"
+$ git config --global user.email "email@email.com"
+$ git config --global user.name "Eesnimi Perenimi"
 
 <! ------- FAILIDE LIIGUTAMINE --------->
 
