@@ -13,8 +13,11 @@ $ export FLASK_APP=app.py
 # server käima
 $ python -m flask run või $ flask run
 
-# server käima Dja EBUG mode on, siis näeme iga kord muudatusi
+# server käima ja EBUG mode on, siis näeme iga peale igat refreshi muudatusi
 $ FLASK_DEBUG=1 flask run
+
+# server käima ja automaatne reload peale muudatust
+$ FLASK_APP=app.py FLASK_ENV=development flask run
 
 # Nüüd saab avada lehe browseris aadressil: http://127.0.0.1:5000/
 
