@@ -9,7 +9,12 @@
 
 # Käsurealt teen järgmised käsud
 $ export FLASK_APP=app.py
+
+# server käima
 $ python -m flask run
+
+# server käima DEBUG mode on, siis näeme iga kord muudatusi
+$ FLASK_DEBUG=1 flask run
 
 # Nüüd saab avada lehe browseris aadressil: http://127.0.0.1:5000/
 
