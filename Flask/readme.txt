@@ -1,9 +1,8 @@
 ## INSTALLEERIMINE ##
 
-1) Ava kataloog, kus arendus toimub
-2) Paigaldan virtual env käsurealt $ python3 -m venv venv
-3) Aktiveerin käsurealt venvi $ . venv/bin/activate
-4) Installi hilisem Flask $ pip install Flask
+1) Paigaldan virtual env käsurealt $ python3 -m venv myapp // see teeb virtual environment kausta
+2) Aktiveerin käsurealt venvi $ . venv/bin/activate
+3) Installi hilisem Flask $ pip install Flask
 
 ## GUICKSTART & BULIT IN SERVER ##
 
