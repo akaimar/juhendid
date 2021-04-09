@@ -1,8 +1,17 @@
 ## INSTALLEERIMINE ##
 
 1) Paigaldan virtual env käsurealt $ python3 -m venv myapp // see teeb virtual environment kausta
-2) Aktiveerin käsurealt venvi $ . venv/bin/activate
-3) Installi hilisem Flask $ pip install Flask
+2) Lähen sellesse kausta $ cd myapp
+3) Aktiveerin käsurealt venvi $ source bin/activate
+4) Installi Flaski dependecy-d $ pip install Flask
+6) Installi formid $ pip install flask_wtf
+5) Et environmentist välja minna $ deactivate
+
+## LOO JÄRGMISED FAILID JA sinna import ##
+app.py
+from Flask import Flask, render_template, request
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
 
 ## GUICKSTART & BULIT IN SERVER ##
 
