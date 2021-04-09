@@ -8,15 +8,17 @@
 5) Et environmentist välja minna $ deactivate
 
 ## LOO JÄRGMISED FAILID JA sinna import ##
-app.py
-from Flask import Flask, render_template, request
-from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
+
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'mysecret'
+
+@app.route('/', methods=["GET", "POST"])
+def index():
+    return "Hello world"
 
 ## GUICKSTART & BULIT IN SERVER ##
-
-# Käsurealt teen järgmised käsud
-$ export FLASK_APP=app.py
 
 # server käima
 $ python -m flask run või $ flask run
