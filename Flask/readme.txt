@@ -4,10 +4,12 @@
 2) Lähen sellesse kausta $ cd myapp
 3) Aktiveerin käsurealt venvi $ source bin/activate
 4) Installi Flaski dependecy-d $ pip install Flask
-6) Installi formid $ pip install flask_wtf
+6) Installi formid $ pip install flask_wtf ja $ pip install wtforms
 5) Et environmentist välja minna $ deactivate
 
 ## LOO JÄRGMISED FAILID JA sinna import ##
+
+app.py
 
 from flask import Flask, render_template, request
 
