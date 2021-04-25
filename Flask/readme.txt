@@ -1,4 +1,9 @@
-## INSTALLEERIMINE ##
+## SISUKORD ##
+1. INSTALLEERIMINE
+2. KÄIVITAMINE
+
+
+## 1. INSTALLEERIMINE ##
 
 1) Paigaldan virtual env käsurealt $ python3 -m venv myapp // see teeb virtual environment kausta
 2) Lähen sellesse kausta $ cd myapp
@@ -37,3 +42,11 @@ $ FLASK_APP=app.py FLASK_ENV=development flask run
 
 Juhend:
 https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment
+
+
+## 2. KÄIVITAMINE ##
+
+1) Mine kausta, kus asub app.py
+2) Aktiveerin käsurealt venvi $ source bin/activate
+3) Käivitan flaski $ python -m flask run
+4) Nüüd saab avada lehe browseris aadressil: http://127.0.0.1:5000/
