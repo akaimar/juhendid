@@ -5,7 +5,7 @@ https://www.linkedin.com/learning/vue-js-full-stack-applications-with-firebase/i
 
 $ cd #Mine enda folderisse
 $ npm install -g @vue/cli #võimalik, et on vaja panna ette sudo
-$ vue create vue-stpas
+$ vue create vue-spas
 
 > Manual features
 * Babel * Router * CSS Pre-processors * Linter / Formatter
