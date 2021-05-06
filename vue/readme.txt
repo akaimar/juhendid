@@ -29,3 +29,14 @@ src/db.js
 # Mine VSCode terminali ja käivita see käsurealt
 $ npm i --save-dev @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/vue-fontawesome bootstrap jquery popper.js firebase
 # see installeerib dependencies jm sodi vt package.json faili ja faili package-lock.json.
+
+### Käivita server ###
+
+$ npm run serve
+
+### MUUD JUHISED ###
+# Folderis public me üldiselt midagi ei puutu. Siin asub index.html fail, kus on <div id="app"></div> mida targetime.
+# src folderis töötame, siin asub main.js fail, millega me mountime applicationi selle div id peale.  Kõik mida me näeme selles applications, tuleb App.vue failist. Siia me sisestame ka vue librari ja routeri. Et siis erinevaid kompomente kasutada (components kasutast).
+# App.vue failis on template, script section ja ka style section. Siin on näha ka template (ülemise menüü) router ligid <router-link to="/">Home</router-link> ja About.
+# router.js failis on router.
+
