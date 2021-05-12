@@ -25,6 +25,7 @@ src/db.js
 
 # Ava githubis järgmine link:
 # https://gist.github.com/planetoftheweb/c32e93908518eb77dc413ff8f1295d71
+$ npm i vue-webrtc
 # Vajuta nupule "Raw" ja kopeeri npm rida: "npm i --save-dev @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/vue-fontawesome bootstrap jquery popper.js firebase"
 # Mine VSCode terminali ja käivita see käsurealt
 $ npm i --save-dev @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/vue-fontawesome bootstrap jquery popper.js firebase
