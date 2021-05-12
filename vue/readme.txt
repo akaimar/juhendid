@@ -1,6 +1,8 @@
 Juhend:
 https://www.linkedin.com/learning/vue-js-full-stack-applications-with-firebase/installation-with-vue-cli?contextUrn=urn%3Ali%3AlyndaLearningPath%3A5d94ce0a498e93731fbb8711
 
+Github repo: https://github.com/LinkedInLearning/videochat-vue-firebase-2841310
+
 #### INSTALL VUE AND CLI ####
 
 $ cd #Mine enda folderisse
