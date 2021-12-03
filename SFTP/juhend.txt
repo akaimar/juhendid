@@ -8,8 +8,8 @@ Konfigureeri VSCs see järgmiselt:
 > Järgmises failis pane serveri FPT andmed. Veebimajutuses on host sinu enda domeen, protocol on “ftp”, port on “21” ja remote path “”. Näiteks:
 
 {
-    "name": "Beebimonitor",
-    "host": "beebimonitor.ee",
+    "name": "Bee******",
+    "host": "bee******.ee",
     "protocol": "ftp",
     "port": 21,
     "username": "vhost94249f1",
