@@ -1,0 +1,7 @@
+Juhend: https://next.router.vuejs.org/guide/
+Mine VSCode folderisse, kuhu soovid installida
+Ava terminal ja tee demo kaust järgmiselt:
+$ vue create demo
+Avanevad valikud, vai sealt midagi
+Kui on Vue installitud, siis pane server käima
+$ npm run serve
