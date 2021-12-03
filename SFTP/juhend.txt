@@ -1,0 +1,20 @@
+SFTP
+
+VSC-s peab olema installitud SFTP laiendus (autor liximomo)
+Konfigureeri VSCs see järgmiselt:
+> Cmd+Shift+P avab command palette
+> Vali SFTP: Config 
+> NB! Kohe peale selle valimist tehakse vastav sftp.json fail juurkausta, kus sa oled.
+> Järgmises failis pane serveri FPT andmed. Veebimajutuses on host sinu enda domeen, protocol on “ftp”, port on “21” ja remote path “”. Näiteks:
+
+{
+    "name": "Beebimonitor",
+    "host": "beebimonitor.ee",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "vhost94249f1",
+    "remotePath": "",
+    "uploadOnSave": true
+}
+
+> uploadOnSave true tähendab, et kui teed save, sisi tehakse kohe ühendus. Küsitakse seejärel parooli.
