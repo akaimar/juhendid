@@ -12,3 +12,5 @@ Kirjutad terminali $ git push --set-upstream origin master
 Saad githubi masteri
 Kui ma soovin näha, kas keegi on teinud mudatusi, siis kirjutan terminali
 $ git pull
+Kus soovid pushida muudatused reposse, siis järgmine käsk (järgi juhiseid)
+$ git push
